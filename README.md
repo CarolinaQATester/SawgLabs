@@ -5,17 +5,9 @@ As principais funcionalidade que foram testada foi Tela de login e fluxo complet
 
 ## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 Consulte **[Implantação](https://github.com/CarolinaQATester/SawgLabs)** para saber como implantar o projeto.
 
-### 📋 Pré-requisitos
-
-De que coisas você precisa para instalar o software e como instalá-lo?
-
-```
-Dar exemplos
-```
 
 ### 🔧 Instalação
 
@@ -31,13 +23,6 @@ Cucumber
 Junit
 ```
 
-E repita:
-
-```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
 ## ⚙️ Executando os testes
 
@@ -67,7 +52,7 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Jdk](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
+
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 * [IDE](https://www.jetbrains.com/idea/) - Ferramenta de desenvolvimento
 * [GitHub-Actions](https://github.com/CarolinaQATester/SawgLabs/actions) - Integração Continua
