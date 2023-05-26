@@ -8,8 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/test/resources/features/Carrinho.feature",
-    tags = " @CampoObrigatorio",
+    features = "src/test/resources/features",
+    tags = " ",
     glue = { "" },  
     monochrome = true, 
     dryRun = false
