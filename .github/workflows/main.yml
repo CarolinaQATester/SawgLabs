@@ -1,4 +1,4 @@
-name: DemoNewCD
+name: Execução de teste regressivos
 on:
   workflow_dispatch:
 
