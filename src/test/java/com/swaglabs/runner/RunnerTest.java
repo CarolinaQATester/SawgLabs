@@ -8,8 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/test/resources/features/Login.feature",
-    tags = "@logout",
+    features = "src/test/resources/features/Carrinho.feature",
+    tags = " @CampoObrigatorio",
     glue = { "" },  
     monochrome = true, 
     dryRun = false

@@ -14,9 +14,9 @@ Cenario: CT001.002 – Login Com Usuário Bloqueado
     Entao valido a mensagem “Epic sadface: Sorry, this user has been locked out.”
 @logout
 Cenario: CT001.003 – Realizar o logout
-    Dado que o usuario realize o login
+    Dado que o  usuario realize o login
     Quando clico no botao login
-    #E o usuario esta na tela de produto
+    Entao devo acessar o sistema na tela produto
     E clico no menu
-    #E clica no submenu Logout
-    #Entao valido se o sistema retorna para a tela de login
+    E clica no submenu Logout
+    E valido se o sistema retorna para a tela de login

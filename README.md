@@ -1,12 +1,13 @@
 # SawgLabs
 
-Um parágrafo da descrição do projeto vai aqui
+Projeto para testar as principais funcionalidade de e-commerce https://www.saucedemo.com/ .
+As principais funcionalidade que foram testada foi Tela de login e fluxo completo de compra
 
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Consulte **[Implantação](https://github.com/CarolinaQATester/SawgLabs)** para saber como implantar o projeto.
 
 ### 📋 Pré-requisitos
 
@@ -18,12 +19,16 @@ Dar exemplos
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Um ambiente de desenvolvimento em execução.
 
 Diga como essa etapa será:
 
 ```
-Dar exemplos
+JDK
+Maven
+Selenium
+Cucumber
+Junit
 ```
 
 E repita:
@@ -36,7 +41,7 @@ Termine com um exemplo de como obter dados do sistema ou como usá-los para uma 
 
 ## ⚙️ Executando os testes
 
-Explicar como executar os testes automatizados para este sistema.
+Para executar os teste execute o arquivo RunnerTest
 
 ### 🔩 Analise os testes de ponta a ponta
 
@@ -62,9 +67,10 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
+* [Jdk](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [IDE](https://www.jetbrains.com/idea/) - Ferramenta de desenvolvimento
+* [GitHub-Actions](https://github.com/CarolinaQATester/SawgLabs/actions) - Integração Continua
 
 ## 🖇️ Colaborando
 
@@ -72,28 +78,9 @@ Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoS
 
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+Nós usamos [GitHub](https://github.com/) para controle de versão. 
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+* **Desenvolvedora** -  [Desenvolvedor](https://github.com/CarolinaQATester)
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
-
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊

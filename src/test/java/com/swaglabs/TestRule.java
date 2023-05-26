@@ -32,7 +32,7 @@ public class TestRule {
 
         extentTest = extentReports.createTest(cenario.getId());
 
-        System.setProperty("webdriver.chrome.driver", "/home/carolinamesquita/Documentos/drivers/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/home/carolinamesquita/Documentos/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();

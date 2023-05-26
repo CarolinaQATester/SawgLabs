@@ -22,7 +22,7 @@ public class LoginSteps {
     @Quando("clico no botao login")
     public void clico_no_botao_login() {
         loginPage.cliarLogin();
-        // Utils.logPrint("Login realizado com sucesso!");
+        Utils.logPrint("Login realizado com sucesso!");
     }
 
     @Entao("^devo acessar o sistema na tela produto$")
@@ -62,7 +62,6 @@ public class LoginSteps {
 
     @Quando("clico no menu")
     public void clico_no_menu() throws Throwable{
-
         loginPage.clicarMenu();
     }
 

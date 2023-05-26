@@ -26,6 +26,7 @@ public class CarrinhoPage extends CarrinhoElementsMaps {
     public void preencherInformacoes() {
         firtName.sendKeys("Teste");
         lastName.sendKeys("Automatizado");
+        zipPostCode.sendKeys("72875-155");
     }
 
     public void clicarBotaoContinuar() {
@@ -66,6 +67,54 @@ public class CarrinhoPage extends CarrinhoElementsMaps {
         if (mensagem.contains("Thank you for your order!")){
             return true;
         }else{
+            return false;
+        }
+    }
+
+    public void clicarBotaoRemover() {
+        btnRemover.click();
+    }
+
+    public void adicionarDoisProdutos() {
+        clicoBotaoAdd();
+        btnAddSegundoProduto.click();
+    }
+
+    public boolean validarTextoTotalDoisProdutos() {
+        try {
+            synchronized (TestRule.getDriver()) {
+                TestRule.getDriver().wait(3000);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        String texto = textoTotalDoisProdutos.getText();
+        System.out.println("Texto exibido: " + texto);
+        if (texto.contains("Total: $43.18")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void deveValidarCampoNomeVazio() {
+        firtName.sendKeys("");
+
+    }
+
+    public boolean validarMensagemDeCampoObrigatorio() {
+        try {
+            synchronized (TestRule.getDriver()) {
+                TestRule.getDriver().wait(3000);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        String texto = mensagemDeCampoObrigatorio.getText();
+        System.out.println("Texto exibido: " + texto);
+        if (texto.contains("Error: First Name is required")) {
+            return true;
+        } else {
             return false;
         }
     }
