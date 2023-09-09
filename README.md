@@ -1,4 +1,4 @@
-# SawgLabs
+# SawgLabs - Selenium WebDriver e Cucumber
 
 Projeto para testar as principais funcionalidade de e-commerce https://www.saucedemo.com/ .
 As principais funcionalidade que foram testada foi Tela de login e fluxo completo de compra
